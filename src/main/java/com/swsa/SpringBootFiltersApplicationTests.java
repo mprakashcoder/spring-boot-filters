@@ -11,12 +11,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @SpringBootApplication
 @EnableEurekaServer
-public class InterceptorDemoApplication implements CommandLineRunner {
+public class SpringBootFiltersApplicationTests implements CommandLineRunner {
 
-	private static final Logger logger = LoggerFactory.getLogger(InterceptorDemoApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(SpringBootFiltersApplicationTests.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(InterceptorDemoApplication.class, args);
+		SpringApplication.run(SpringBootFiltersApplicationTests.class, args);
 	}
 
 	@Override
