@@ -5,11 +5,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
 @SpringBootApplication
-
+@EnableEurekaServer
 public class InterceptorDemoApplication implements CommandLineRunner {
 
 	private static final Logger logger = LoggerFactory.getLogger(InterceptorDemoApplication.class);
