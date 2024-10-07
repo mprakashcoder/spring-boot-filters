@@ -35,5 +35,18 @@ Now, lets insert the data into the Training Service. For this functionality demo
 http://localhost:8091/index.html
 
 Please verify the logs after invoking.
-
 Enter data and submit, verify logs.
+
+### Retrieve all the inserted values
+```shell
+curl -X GET -H 'Content-Type: application/json' http://localhost:8091/training
+```
+### Retrieve Specific inserted values
+```shell
+curl -X GET -H 'Content-Type: application/json' http://localhost:8091/training/0
+```
+### Delete Specific inserted values
+```shell
+curl -X DELETE -H 'Content-Type: application/json' http://localhost:8080/training/0
+```
+
