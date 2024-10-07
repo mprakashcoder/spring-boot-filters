@@ -50,3 +50,4 @@ curl -X GET -H 'Content-Type: application/json' http://localhost:8091/training/0
 curl -X DELETE -H 'Content-Type: application/json' http://localhost:8080/training/0
 ```
 
+Above-mentioned are just operations. This program is just a demonstration of the interceptor. Please verify logs everytime you trigger any operation.
