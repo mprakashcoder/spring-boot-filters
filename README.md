@@ -28,3 +28,12 @@ mvn clean install
 ```shell
 mvn clean spring-boot:run
 ```
+### Till this point, you won't find any difference as same data you inserted will be visible<br>
+Now, lets insert the data into the Training Service. For this functionality demonstration, we have front end HTML page in place. Please verify the logs before invoking.
+
+### Insert Data
+http://localhost:8091/index.html
+
+Please verify the logs after invoking.
+
+Enter data and submit, verify logs.
