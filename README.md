@@ -4,13 +4,11 @@ In this example, we're going to see how to write filter along with interceptor i
 
 You'll know:
 
-How to configure Spring Data, JPA, Hibernate to work with Database
-How to define Data Models and Repository interfaces
-Way to create Spring Rest Controller to process HTTP requests
-Way to use Spring Data JPA to interact with H2 Database
-Way to use scheduler works
-Technical Details
-In this project, we are going to use below set of versions for demonstrations.
+1)How to configure Spring Data, JPA, Hibernate to work with Database<br>
+2)How to define Data Models and Repository interfaces<br>
+3)Way to create Spring Rest Controller to process HTTP requests<br>
+4)Way to use Spring Data JPA to interact with H2 Database<br>
+5)Way to use scheduler works
 
 # Technical Details
 In this project, we are going to use below set of versions for demonstrations.
