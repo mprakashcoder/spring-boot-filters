@@ -2,7 +2,7 @@
 # Spring Boot with Filter
 In this example, we're going to see how to write filter along with interceptor in Spring Boot REST API implementation.
 
-You'll know: 
+You'll know:  
 
 1)How to configure Spring Data, JPA, Hibernate to work with Database<br>
 2)How to define Data Models and Repository interfaces<br>
